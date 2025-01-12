@@ -31,7 +31,7 @@ const generateResponse = (chatElement) => {
             "Authorization": `Bearer ${API_KEY}`
         },
         body: JSON.stringify({
-            model: "gpt-3.5-turbo",
+            model: "gpt-4o-mini",
             temperature: 0.5,
             messages: [{role: "user", content: userMessage}],
         })
