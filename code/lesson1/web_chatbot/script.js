@@ -32,7 +32,7 @@ const generateResponse = (chatElement) => {
         },
         body: JSON.stringify({
             model: "gpt-4o-mini",
-            temperature: 0.5,
+            temperature: 1,
             messages: [{role: "user", content: userMessage}],
         })
     }
